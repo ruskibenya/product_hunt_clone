@@ -17,6 +17,9 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+gem 'capybara'
+gem 'webdrivers', '~> 4.0'
+gem 'launchy'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
